@@ -1,0 +1,134 @@
+/*___________GENERALE___________*/
+
+body,html {
+    width: 100%;
+    height: 100%;
+    margin-left: 3px;
+    font-family: Georgia, serif;
+	word-spacing: 1px;
+	background-color: #fff2e6;
+
+}
+
+
+
+#navbar ul{
+      padding: 0;
+      margin-top: 30px;
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+#navbar li{
+    display: inline;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    width: 100px;
+    padding: 15px;
+  }
+
+  #navbar li a:hover {
+    color: #ffffff;
+  }
+  
+  #navbar li:hover {
+    background-color: #cc6600;
+  }
+
+header {
+    width: 100%;
+}
+
+/*TITOLI*/
+
+h1{
+	text-align: center;
+}
+
+h2{
+	font-family: Oswald, serif;
+	font-style: italic;
+}
+
+h3{
+	font-size:25px;
+}
+
+/*colori per differenziare le parole*/
+#giallo{
+    color: #FFD700;
+}
+
+#blu{
+    color: #0000FF;
+}
+
+#rosso{
+    color:#ff0000;
+}
+
+/*Pagine*/
+
+.trascrizione {
+    max-height: 420px;
+    overflow-y: scroll;
+	grid-area: 2 / 2 / 3 / 3;
+}
+
+#frontepag8, #frontepag9{ 
+	width: 87%;
+}
+
+.img-wrapper { grid-area: 2 / 1 / 3 / 2; 
+margin-left: 10%;
+}
+
+.contenuto-p8, .contenuto-p9{
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#retropag8, #retropag9 { width: 25% }
+
+/*rendere visibili pulsanti e traduzione*/
+.no {
+    display: none;
+ }
+.yes {
+	display: inline;
+}
+
+
+/*Display parole*/
+.corr {
+    display: none;
+}
+
+
+.espansioni {
+    text-decoration: underline;
+}
+
+
+.elemTerm{
+    background-color: #FFD700;
+
+}
+
+.menzioni{
+     color: #0000FF;
+    Font-style:italic;
+}
+
+.cancellazioni{
+    text-decoration:line-through;
+}
+
+.aggiunte{
+    color:#ff0000;
+}
